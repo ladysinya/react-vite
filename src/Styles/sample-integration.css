@@ -1,0 +1,41 @@
+
+.sample-integration {
+    height: 100%;
+}
+s-mkt {    
+    display: flex;
+    background-color: GhostWhite;
+    height: 100%;
+    
+    .bg-primary, .btn-primary {
+        background-color: cornflowerblue !important;
+    }
+
+    si-button-bar {
+        display: flex;
+        justify-content: end;
+        gap: 0.5em;
+        padding: 1em;
+        flex-wrap: wrap;
+
+        & > * {
+            margin: auto 0;
+            white-space: nowrap;
+        }
+
+        .form-control {
+            width: unset;
+        }
+    }
+
+    sm-fragment {
+        padding: 1em;
+    }
+
+    .empty-message {
+        font-size: 1.5em;
+        font-weight: 600;
+        text-align: center;
+        color: gainsboro;
+    }
+}

@@ -1,0 +1,14 @@
+sm-fragment.sm-si-add-contact-fragment {
+    width: 100%;
+    
+    .add-contact-form {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+    }
+    
+    si-button-bar {
+        padding-right: 0;;
+    }
+}
